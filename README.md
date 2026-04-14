@@ -139,31 +139,37 @@ Each screenshot includes a brief caption:
 
 3. Bounded-buffer logging (`engine logs`)
    <img width="830" height="123" alt="3" src="https://github.com/user-attachments/assets/8094cc5a-586e-44e7-b104-3926e1e98866" />
+   <br>
    Screenshot showing container logs capturing output (“Hello”), demonstrating the logging system.
 
 4. CLI and IPC interaction
    <img width="823" height="251" alt="4" src="https://github.com/user-attachments/assets/ca5b1368-e5dc-4237-b811-f6881948b761" />
+   <br>
    Screenshot showing CLI command execution and response from supervisor.
 
 5. Soft-limit warning (dmesg/logs)
    <img width="1600" height="625" alt="5 6" src="https://github.com/user-attachments/assets/e65d43aa-f44c-4183-ac48-fa98c9c4b162" />
+   <br>
    Screenshot showing gradual memory allocation before reaching limit.
 
 6. Hard-limit enforcement (OOM kill)
    <img width="1600" height="625" alt="5 6" src="https://github.com/user-attachments/assets/adc08fe4-c827-4656-bec1-fe964f47ad53" />
-
+   <br>
    Screenshot showing kernel OOM kill message after memory limit is exceeded.
 
 7. Scheduling experiment (nice values comparison)
    <img width="1447" height="711" alt="7a" src="https://github.com/user-attachments/assets/8457bf42-a2c3-4b51-8c14-daa15142d359" />
+   <br>
    Screenshot showing two CPU-bound containers running with different nice values (0 and 10).
 
    <img width="1031" height="305" alt="7b" src="https://github.com/user-attachments/assets/b451e9c7-5870-44f0-b4c7-c60703bcbcf4" />
+   <br>
    Screenshot showing CPU usage of two processes with different nice values. The process with lower 
    nice value has higher priority.
 
 8. Clean teardown (no defunct processes)
    <img width="877" height="141" alt="8" src="https://github.com/user-attachments/assets/35cf9c4c-5bb1-4a2d-b700-659eca0a3d2d" />
+   <br>
    CLI Screenshot showing no defunct processes and successful cleanup of resources, confirming proper 
    teardown. 
 
