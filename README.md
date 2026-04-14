@@ -131,10 +131,12 @@ Each screenshot includes a brief caption:
 
 1. Multi-container supervision
    <img width="838" height="66" alt="1" src="https://github.com/user-attachments/assets/96559cf7-5818-4a27-9e8f-3754f3069f30" />
+   <br>
    Screenshot showing multiple containers managed by the supervisor using the engine ps command.
 
 2. Metadata tracking (`engine ps`)
    <img width="828" height="282" alt="2" src="https://github.com/user-attachments/assets/09e0841c-c70c-4797-a6d9-504a4510466f" />
+   <br>
    Screenshot showing container metadata such as PID, state, and exit status.
 
 3. Bounded-buffer logging (`engine logs`)
